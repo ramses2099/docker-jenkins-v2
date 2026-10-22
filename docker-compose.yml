@@ -1,6 +1,6 @@
 services:
   jenkins:
-    image: dhi.io/jenkins
+    image: dhi.io/jenkins:2.587-debian-fips
     container_name: jenkins-server
     ports:
       - "8080:8080"
